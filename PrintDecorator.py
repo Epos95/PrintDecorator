@@ -8,3 +8,4 @@ def decorator(f):
 
         return f("["+s+"]", *args, **kwargs)
     return wrapper
+
